@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="style.css">
+        <title>Unit 3 Project Starter Code</title>
+    </head>
+    <body>
+        <!--Between lines 8-12, put the opening of your story-->
+        <div class="title">An Abandoned Dungeon </div>
+        <div class="story-opening">
+            <img src="./data/door abondoned.jpeg" alt="">
+            <h1>You have run across a dungeon that isn't shown on your map, and seeing this you get excited that you could find something extraordinary. Do you go in?</h1>
+        </div>
+        <!--Change the text of the buttons to the options relevant to your story!-->
+        <div class="buttons">
+            <button class="option-one">Try and open the door</button>
+            <button class="option-two">Walk away</button>
+        </div>
+        <!--Between lines 19-22, put the part of the story the user will see if they picked option one-->
+        <div class="option-one-screen">
+            <h1>You open the door and walk into the first room of the dungeon 
+Picture: an room with cobwebs, rust , mold, and just broken down stuff</h1>
+            <img src="./data/inside dungeon room1.jpeg" alt="">
+			
+			<div class="buttons continue-button" id="continue-one-end">
+            <button class="continue">Continue</button>
+		</div>
+			
+			
+			
+		</div>
+        <!--Between lines 24-27, put the part of the story the user will see if they picked option two-->
+        <div class="option-two-screen">
+            <h1>You walk away and for the longest time you keep on thinking what was in that dungeon.</h1>
+            <img src="./data/walking away from dunegon.jpeg" alt="">
+			
+			
+			<div class="buttons continue-button" id="continue-two-end">
+            <button class="continue">Continue</button>
+        </div>
+			
+			
+        </div>
+        <!--Between lines 29-32, put the end of the story if the user chose option 1-->
+        <div class="option-one-end">
+            <h1>Atfer a hard fought battle you have won. You see all the shiny loot behind boss,  including swords,and daggers, golden coins. You walk out with your loot  </h1>
+            <img src="./data/large pile of treasure.jpeg" alt="">
+        </div>
+        <!--Between lines 29-32, put the end of the story if the user chose option 2-->
+        <div class="option-two-end">
+            <h1>You never find the dungeon again and will never to know what it holds </h1>
+            <img src="./data/lostthe dungeon location.jpeg" alt="">
+		
+        </div>
+		<div class="buttons" id="restart">
+            <a href ="index.html"> <button  class="restart">restart</button> </a>
+        </div>
+		
+	<script src="./script.js"></script>
+	<audio autoplay loop >
+  <source src="./data/Elden Ring - Main Theme (OST  Official Soundtrack Music) FULL VERSION.mp3" type="audio/mpeg">
+	</audio>
+		
+    </body>
+</html>
